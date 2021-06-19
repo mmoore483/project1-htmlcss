@@ -22,3 +22,30 @@ h1 {
 #logo {
     float: left;
 }
+
+/* navigation links */
+
+nav {
+    float:right;
+    margin: 120px 30px 0 0;
+}
+
+#menu li {
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #1F3347;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #1F3347;
+}
+
+.active {
+    border-bottom: 2px solid #1F3347;
+}
