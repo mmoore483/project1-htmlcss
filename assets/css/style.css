@@ -16,6 +16,10 @@ body {
 .top-bar {
     height: 152px;
     background-color: #F4F6F6;
+    Position: fixed;
+    Top:0;
+    Right:0;
+    Width:100%
 }
 
 h1 {
