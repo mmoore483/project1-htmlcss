@@ -64,3 +64,24 @@ nav {
     float: center;
 }
 
+/* footer style */
+
+footer {
+    height: 100px;
+    background-color: #F4F6F6;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 2%;
+    color: #1F3347;
+}
