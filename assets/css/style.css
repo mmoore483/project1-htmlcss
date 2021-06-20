@@ -64,6 +64,13 @@ nav {
     float: center;
 }
 
+#home-hero-text {
+    color: white;
+    text-transform: none;
+    margin-top: -50px;
+    font-size: 46px;
+}
+
 /* footer style */
 
 footer {
@@ -84,4 +91,27 @@ footer {
     margin: 1%;
     padding: 2%;
     color: #1F3347;
+}
+
+/* home page section styles */
+
+#visit_us {
+    color: #1F3347;
+    display: inline-block;
+}
+
+.button-style {
+    background-color: #672354;
+    border: none;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.button-style a {
+    color: inherit;
+    text-decoration: inherit;
 }
