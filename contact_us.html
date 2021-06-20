@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,59 +10,76 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="top-bar">
-        <a href="index.html">
-            <h1 id="logo"><img src="assets/images/penshawlogo_freelogodesign.png" alt="Logo for penshaw monument"></a></h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="plan_your_visit.html">Plan Your Visit</a>
-                </li>
-                <li>
-                    <a href="history.html">History</a>
-                </li>
-                <li>
-                    <a href="contact_us.html" class="active">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-</div>
+            <a href="index.html">
+                <h1 id="logo"><img src="assets/images/penshawlogo_freelogodesign.png" alt="Logo for penshaw monument">
+            </a></h1>
+            </a>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="plan_your_visit.html">Plan Your Visit</a>
+                    </li>
+                    <li>
+                        <a href="history.html">History</a>
+                    </li>
+                    <li>
+                        <a href="contact_us.html" class="active">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section>
+        <h2><i class="far fa-envelope"></i>Make an enquiry</h2>
         <form method="POST" action="https://formdump.codeinstitute.net/">
+            <fieldset>
+                <legend>Your Details</legend>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name(s)...">
 
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your first name(s)...">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-        
-            <label for="country">Country</label>
-            <input type="email" id="email" name="email" placeholder="Your email address...">
-        
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email address..." required>
+            </fieldset>            
             <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
+                required></textarea>
+
             <input type="submit" value="Submit">
-        
-          </form>
+        </form>
+        <h2><i class="fas fa-phone"></i>Telephone</h2>
+        <p>
+            Alternatively call us on 01914166879 9-5 mon-fri
+        </p>
     </section>
     <footer>
         <ul class="social-networks">
-            <li><a href="https://www.nationaltrust.org.uk" target="_blank" rel="noopener" aria-label="Visit national trust website (opens in a new tab)"><i class="fab fa-pagelines"></i></a></li>
-            <li><a href="https://www.facebook.com/pg/penshawmonument.nt" target="_blank" rel="noopener" aria-label="Visit penshaw monument national trust facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/nationaltrust" target="_blank" rel="noopener" aria-label="Visit the national trust twitter (opens in a new tab)"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.instagram.com/nationaltrust" target="_blank" rel="noopener" aria-label="Visit national trust instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></a></li>
+            <li><a href="https://www.nationaltrust.org.uk" target="_blank" rel="noopener"
+                    aria-label="Visit national trust website (opens in a new tab)"><i class="fab fa-pagelines"></i></a>
+            </li>
+            <li><a href="https://www.facebook.com/pg/penshawmonument.nt" target="_blank" rel="noopener"
+                    aria-label="Visit penshaw monument national trust facebook page (opens in a new tab)"><i
+                        class="fab fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/nationaltrust" target="_blank" rel="noopener"
+                    aria-label="Visit the national trust twitter (opens in a new tab)"><i
+                        class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.instagram.com/nationaltrust" target="_blank" rel="noopener"
+                    aria-label="Visit national trust instagram page (opens in a new tab)"><i
+                        class="fab fa-instagram-square"></i></a></li>
         </ul>
     </footer>
-   
+
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/86d524d596.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
