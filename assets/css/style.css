@@ -65,10 +65,10 @@ nav {
 /* hero image */
 
 #hero-image {
-    height: 100%;
+    margin: auto;
+    text-align: center;
+    height: 600px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #home-hero-text {
