@@ -86,7 +86,8 @@ footer {
     overflow: hidden;
     box-sizing: border-box;
     background-color: #F4F6F6;
-    position: relative;    
+    position: fixed;
+    bottom: 0;  
 }
 
 .social-networks {
