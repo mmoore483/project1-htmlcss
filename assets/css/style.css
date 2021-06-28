@@ -189,3 +189,95 @@ footer {
 
 /* plan your visit page styles */
 
+/* Contact Us Page Styles */
+
+#formcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background: linear-gradient(20deg, #852e6c, #d17ab9);
+    width: 85%;  
+}
+
+#details {
+    display: flex;
+    padding: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#message {
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formitem {
+    padding: 2em;
+    width: 40%;
+}
+
+textarea {
+    width: 75%;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: white;
+    resize: none;
+    font-family: Lato, sans-serif;
+    font-size: 2em;
+  }
+
+  select {
+    width: 15em;
+    padding: 0.5em;
+    border-radius: 4px;
+    background-color: white;  
+  }
+
+
+  label {
+      font-size: 2em;
+      color:white; 
+      padding: 1rem;
+  }
+
+  ::placeholder, select {
+    font-size: 1.5rem;
+} 
+
+  .submit-button {
+    background-color: #1F3347;
+    border: none;
+    color: white;
+    padding: 1em;
+    font-size: 2em;
+    float: right;
+  }
+
+input[type="text"], input[type="email"], input[type="tel"]  {
+    font-size: 2em;
+    border-radius: 4px;
+    padding: 1rem;
+    width: 20rem;
+    float: right;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus, select:focus {
+    background-color: #f4f6f6;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#alternative_contact > p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
