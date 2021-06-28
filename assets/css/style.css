@@ -178,7 +178,6 @@ footer {
     margin: 0 2em;
     padding: 1em;
     flex: 1 0 auto;
-    
 }
 
 .button-style a {
@@ -190,6 +189,3 @@ footer {
 
 /* plan your visit page styles */
 
-form {
-    margin-top: 200px;
-}

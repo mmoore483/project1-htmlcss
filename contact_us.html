@@ -37,7 +37,7 @@
         </div>
     </header>
     <section>
-        <h2><i class="far fa-envelope"></i>Make an enquiry</h2>
+        <h2><i class="far fa-envelope"></i> Make an enquiry</h2>
         <form method="POST" action="https://formdump.codeinstitute.net/">
             <fieldset>
                 <legend>Your Details</legend>
@@ -50,10 +50,18 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Your email address..." required>
             </fieldset>            
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
+            <fieldset>
+                <legend>Message</legend>
+                <select name="enquirytype" id="enquirytype">
+                    <option value="general">General</option>
+                    <option value="booking">Booking Enquiry</option>
+                    <option value="accessibility">Accessibility Enquiry</option>
+                    <option value="history">History Question</option>
+                  </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
                 required></textarea>
-
+            </fieldset>
             <input type="submit" value="Submit">
         </form>
         <h2><i class="fas fa-phone"></i>Telephone</h2>
