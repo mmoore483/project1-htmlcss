@@ -59,7 +59,7 @@ h3 {
 }
 
 .main-text {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color:#3a5061;
     margin: auto;
     max-width: 90%; 
@@ -156,7 +156,7 @@ a:hover {
     display: flex;
     flex-flow: row wrap;
     align-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     flex-basis: 100%;
 }
 
@@ -247,7 +247,11 @@ nav {
 }
 
 #home-hero-text {
-    
+    position: relative;
+    top: 600px;
+}
+
+.call-to-action {
     position: relative;
     top: 360px;
 }
@@ -330,26 +334,22 @@ footer {
 }
 
 .button-style {
-    background-color: #672354;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    height: 3em;
-    flex-basis: 80%;
-    margin: 0 2em;
-    padding: 1em;
-    flex: 1 0 auto;
+    background-color: rgba(103, 35, 84, 0.8);
+    padding: 20em;
+    border-radius: 50%;
 }
 
 .button-style a {
-    color: inherit;
-    text-decoration: inherit;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
 }
 
-
-
+.alt-h2 {
+    margin: 0;
+    font-size: 3rem;
+}
 
 
 /* Contact Us Page Styles */
