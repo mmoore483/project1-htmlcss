@@ -233,6 +233,10 @@ footer {
     display: block;
 }
 
+.vertical-list li {
+    padding-bottom: 0.75em;
+}
+
 /* home page section styles */
 
 #visit-us {
