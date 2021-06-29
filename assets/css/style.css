@@ -45,6 +45,8 @@ h2 {
     text-align: center;
     font-size: 2rem;
     padding: 1em;
+    font-family: Roboto, sans-serif;
+    margin-top: 3em;
 
 }
 
@@ -52,6 +54,7 @@ h3 {
     text-align: center;
     font-size: 1.8rem;
     padding: 1em;
+    font-family: Roboto, sans-serif;
 }
 
 .main-text {
@@ -97,6 +100,29 @@ td, th {
 
 #facilities li {
     padding-bottom: 1em;
+}
+
+#page-nav li {
+    display: inline-block;
+    position: relative;
+    top: -78rem;
+    z-index: 1;
+}
+
+#page-nav a{
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+    margin: 0.5em; 
+}
+
+#page-nav {
+    text-align: center;
+    height: 0px;
+}
+
+#page-nav a:hover {
+    border-bottom: 1px dotted white;
 }
 /* headings and logo */
 
@@ -192,12 +218,12 @@ nav {
 
 #home-hero-text {
     text-transform: none;
-    text-align: left;
+    text-align: center;
     color: white;
-    position: relative;
-    bottom: 50px;
-    font-size: xx-large;
+    font-size: 5rem;
     margin: 0 2rem;
+    position: relative;
+    top: 360px;
 }
 
 /* footer style */
@@ -216,6 +242,7 @@ footer {
     font-size: 2rem;
     color: #1f3347;
     font-family: Robot, sans-serif;
+    margin-top: 1em;
 }
 
 .footer-contents i {
