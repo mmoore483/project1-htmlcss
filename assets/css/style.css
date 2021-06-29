@@ -84,6 +84,12 @@ td, th {
     text-align: justify;
 }
 
+iframe {
+    width: 100%; 
+    height: 450px;
+    border: 0;
+}
+
 @media only screen and (min-width: 1024px) {
     
     h1 {
@@ -118,6 +124,10 @@ td, th {
     i {
         font-size: 3rem;
         margin: auto;
+    }
+
+    iframe {
+        width: 65%;
     }
 
 }
@@ -407,6 +417,10 @@ input[type="text"], input[type="email"], input[type="tel"], textarea, select  {
     color: #3a5061;
 }
 
+textarea {
+    height: 200px;
+}
+
 input:focus, textarea:focus, select:focus {
     background-color: #f4f6f6;
 }
@@ -446,3 +460,4 @@ input:focus, textarea:focus, select:focus {
         padding: 35em;
     }
 }
+
