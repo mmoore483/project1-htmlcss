@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* reset default styles and set standards across all pages */
+
 * {
     margin: 0;
     padding: 0;
     border: none;
     list-style: none;
     text-decoration: none;
+    font-size: 62.5%; /* allows all rem units to be pixels over 10 */
+    /* outline: 2px solid red; */
 }
 
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
+    overflow-x: hidden;
 }
 
 .container {
@@ -19,6 +24,79 @@ body {
 
 .item {
     flex: 1 1 auto;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* contact us page */
+
+#hero-image-plan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image-plan-visit.jpg");
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1em;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1em;
+}
+
+.main-text {
+    font-size: 1.4rem;
+    color:#1F3347;
+    margin: auto;
+    max-width: 90%;
+    
+}
+
+.bold {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+td, th {
+    padding: 1em 1em 0 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+#prices a {
+    font-size: 1.4rem;
+    color:#1F3347;
+   
+}
+
+#prices a:hover {
+    border-bottom: 1px dotted #1F3347;
+}
+
+#facilities li, #facilities i {
+    font-size: 1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    text-align: justify;
+}
+
+#facilities li {
+    padding-bottom: 1em;
 }
 /* headings and logo */
 
@@ -35,7 +113,7 @@ body {
 
 .nav-links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-basis: 100%;
     flex-grow: 1;
 }
@@ -51,7 +129,8 @@ h1 {
 
 #logo {
     float: left;
-    margin: 30px;
+    margin: 4em;
+    flex: 1 1 auto;
 }
 
 /* navigation links */
@@ -60,20 +139,37 @@ nav {
     margin-right: 2vw;
 }
 
-#menu li {
+#menu li, #menu a {
     list-style-type: none;
-    padding: 20px;
-    font-size: xx-large;
-    margin-bottom: 20px;
-}
-
-#menu li a {
+    font-size: 2rem;
     text-decoration: none;
     color: #1F3347;
+    margin-top: 0.25em;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        
+    }
+    
+    #menu li, #menu a {
+        list-style-type: none;
+        font-size: 3rem;
+        text-decoration: none;
+        color: #1F3347;
+        margin: 0 0.5em 0.3em 0.5em;
+    }
+
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #1F3347;
+    border-bottom: 2px dotted #1F3347;
 }
 
 .active {
@@ -82,8 +178,11 @@ nav {
 
 /* hero image */
 
-#hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/penshawTimW19771.jpg");
+#hero-image-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image-home.jpg");
+}
+
+.hero-image {
     height: 800px;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,38 +209,29 @@ footer {
     box-sizing: border-box;
     background-color: #F4F6F6;
     bottom: 0;
+    margin-top: 5em;
 }
 
-.social-networks {
-    width: 33%;
-    height: 100%;
-    margin: auto;
-    float: left;
+.footer-contents {
+    font-size: 2rem;
+    color: #1f3347;
+    font-family: Robot, sans-serif;
 }
 
-.social-networks>li {
-    display: inline;
+.footer-contents i {
+    font-size: 2.5em;
+    color: #1f3347;
+    padding: 0 0.5em 0.1em 0.5em;
 }
 
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 2%;
-    color: #1F3347;
+.footer-contents li {
+    padding: 0 0.5em;
+    flex-basis: 100%;
 }
 
-.footer-contact-info {
-    width: 66%;
-    height: 100%;
-    display: inline-block;
+.vertical-list {
+    display: block;
 }
-
-.footer-contact-info>li {
-    margin: 1%;
-    font-size: 100%;
-    color: #1F3347;
-}
-
 
 /* home page section styles */
 
@@ -187,7 +277,7 @@ footer {
 
 
 
-/* plan your visit page styles */
+
 
 /* Contact Us Page Styles */
 
@@ -270,10 +360,6 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, te
     background-color: #f4f6f6;
 }
 
-h2 {
-    text-align: center;
-    font-size: 2rem;
-}
 
 #alternative_contact > p {
     text-align: center;
