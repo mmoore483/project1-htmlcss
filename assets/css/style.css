@@ -50,6 +50,12 @@ h2 {
     color: #3a5061;
 }
 
+.alt-h2 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+
 h3 {
     text-align: center;
     font-size: 1.8rem;
@@ -88,6 +94,13 @@ td, th {
         font-size: 4.5rem;
         padding: 1em;
         margin-top: 1.5em;
+    }
+
+    .alt-h2 {
+        font-size: 6rem;
+        padding: 1em;
+        margin: auto;
+        max-width: 60%;
     }
 
     h3 {
@@ -248,12 +261,12 @@ nav {
 
 #home-hero-text {
     position: relative;
-    top: 600px;
+    top: 85%;
 }
 
 .call-to-action {
     position: relative;
-    top: 360px;
+    top: 55%;
 }
 
 /* footer style */
@@ -346,11 +359,11 @@ footer {
     font-size: 2rem;
 }
 
-.alt-h2 {
-    margin: 0;
-    font-size: 3rem;
+@media only screen and (min-width: 1024px) {
+    .button-style a {
+        font-size: 3rem;
+    }
 }
-
 
 /* Contact Us Page Styles */
 
