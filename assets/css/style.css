@@ -367,89 +367,47 @@ footer {
 
 /* Contact Us Page Styles */
 
-#formcontainer {
-    display: flex;
-    justify-content: center;
-}
-
 form {
     background: linear-gradient(20deg, #852e6c, #d17ab9);
-    width: 85%;  
+    width: 100%;
+    text-align:center; 
+    display: block;
+    padding-top: 10em;
 }
-
-#details {
-    display: flex;
-    padding: 2em;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#message {
-    display: flex;
-    padding: 2em;
-    flex-direction: column;
-    align-items: center;
-}
-
-.formitem {
-    padding: 2em;
-    width: 40%;
-}
-
-textarea {
-    width: 75%;
-    padding: 1rem;
-    box-sizing: border-box;
-    border-radius: 4px;
-    background-color: white;
-    resize: none;
-    font-family: Lato, sans-serif;
-    font-size: 2em;
-  }
-
-  select {
-    width: 15em;
-    padding: 0.5em;
-    border-radius: 4px;
-    background-color: white;  
-  }
-
 
   label {
-      font-size: 2em;
+      font-size: 2rem;
       color:white; 
-      padding: 1rem;
   }
 
-  ::placeholder, select {
-    font-size: 1.5rem;
+  ::placeholder {
+    font-size: 1.8rem;
 } 
 
   .submit-button {
-    background-color: #1F3347;
+    background-color: #3a5061;
     border: none;
     color: white;
     padding: 1em;
-    font-size: 2em;
-    float: right;
+    font-size: 2rem;
+    width: 100%;
   }
 
-input[type="text"], input[type="email"], input[type="tel"]  {
-    font-size: 2em;
+input[type="text"], input[type="email"], input[type="tel"], textarea, select  {
+    font-size: 1.8rem;
     border-radius: 4px;
-    padding: 1rem;
-    width: 20rem;
-    float: right;
+    padding: 0.5em;
+    width: 85%;
+    margin: 0.5em;
+    font-family: Lato, sans-serif;
+    color: #3a5061;
 }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus, select:focus {
     background-color: #f4f6f6;
 }
 
-
-#alternative_contact > p {
-    text-align: center;
-    font-size: 1.5rem;
+.icons {
+    font-size: 2.5rem;
 }
-
 
