@@ -237,7 +237,7 @@ nav {
     
     #menu li, #menu a {
         list-style-type: none;
-        font-size: 3rem;
+        font-size: 4rem;
         text-decoration: none;
         color: #3a5061;
         margin: 0 0.5em 0.3em 0.5em;
@@ -252,7 +252,7 @@ nav {
 }
 
 #hero-image-contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image-contact.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(103, 35, 84, 0.35)), url("../images/hero-image-contact.jpg");
 }
 .hero-image {
     height: 800px;
@@ -376,6 +376,7 @@ form {
     text-align:center; 
     display: block;
     padding-top: 10em;
+    box-sizing: border-box;
 }
 
   label {
@@ -406,7 +407,7 @@ input[type="text"], input[type="email"], input[type="tel"], textarea, select  {
     color: #3a5061;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus, select:focus {
+input:focus, textarea:focus, select:focus {
     background-color: #f4f6f6;
 }
 
@@ -414,3 +415,34 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, te
     font-size: 2.5rem;
 }
 
+@media only screen and (min-width: 1024px) {
+    .icons {
+        font-size: 6rem;
+    }
+
+    form {
+        width: 85%;
+        padding: 10em;
+        margin: auto;
+        columns: 2;
+        text-align: left;
+    }
+
+    .submit-button {
+        width: 85%;
+        margin-left: 1.25em;
+    }
+    
+    label {
+        display: block;
+        font-size: 3rem;
+    }
+
+    input, select, textarea, ::placeholder {
+        font-size: 2.5rem;
+    }
+
+    .padding {
+        padding: 35em;
+    }
+}
