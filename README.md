@@ -5,7 +5,7 @@ Portfolio 1 HTML/CSS Essentials - Code Institute
 Penshaw Monument is a historical landmark based in the north east of England. This site is for people interested in visiting the greek-like landmark - perhaps they have seen it up on the hill as they drive on the A1. The aim of this site is to be a reliable source of information to allow people to visit and make enquiries as necessary.
 
 
-![Responsive Mockup] 
+![Responsive Mockup](assets/images/p1-mockup.jpg) 
 
 # User Experience
 
@@ -94,9 +94,9 @@ Fontawesome.com has been used for icons throughout the site.
 
 The three images of Penshaw Monument were found online.
 
-1. Home page image: Title - Penshaw Monument, Artist - Tim Withnall, Copyright - Tim Withnall www.timwithnall.com, https://www.flickr.com/photos/timwithnall/43553627971
-2. Plan Your Visit page image:  Artist - Dean Robson, Pixabay, https://pixabay.com/photos/monument-penshaw-pillars-columns-86034/
-3. Contact Us page image: Artist - Mark Bryan, freeimages, https://www.freeimages.com/photo/penshaw-monument-by-night-1521077
+1. Home page image: Title - Penshaw Monument, Artist - Tim Withnall, Copyright - [Tim Withnall](www.timwithnall.com), [flickr](https://www.flickr.com/photos/timwithnall/43553627971)
+2. Plan Your Visit page image:  Artist - Dean Robson, [Pixabay](https://pixabay.com/photos/monument-penshaw-pillars-columns-86034/)
+3. Contact Us page image: Artist - Mark Bryan, [freeimages](https://www.freeimages.com/photo/penshaw-monument-by-night-1521077)
 
 ## Skeleton
 
@@ -228,4 +228,5 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - Balsamiq Wireframes for wireframes in the design phase
 - W3C HTML Validator for testing validity of HTML
 - Jigsaw CSS Validator for testing validity of CSS
+- National Trust website for content and information about Penshaw Monument
 
