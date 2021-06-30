@@ -165,17 +165,29 @@ __Contact Us__
 
 # Testing 
 
-The website has been tested using Chrome Tools for responsive design as well as my personal mobile (Pixel 3a) on both portrait and landscape mode. This allowed me to size the media querys as appropriate. 
+The website has been tested using Chrome Tools for responsive design as well as my personal mobile (Pixel 3a) on both portrait and landscape mode. This allowed me to size the media querys as appropriate, especially with regards to padding around the form labels and inputs. 
 
+Every internal link in the site was tested to ensure it took the user to the correct location.
 
+Links to external sites such as social media links all take the user to the relevant social media for either Penshaw Monument itself or the National Trust (owners of the monument) social media. A nested external link to National Trust membership contained with the Prices section of the Plan Your Visit page also takes the user to the correct location.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The navigation bar contains two features to aid the user know their own location on the page. The active page has an underline under its link on the navigation bar. Upon hover (non-touch devices) there is a dashed line underneath signifying a link.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The main user story was to access information on how to visit Penshaw Monument easily. This design meets that criteria as there are two links to the Plan Your Visit page on the home page: the navigation bar and the call to action button. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+When reaching the Plan Your Visit page, there is a second navigation bar allowing the user to skip to the part of information they wish to know. These navigation links successfully take the user to the correct location on the page. This enables the user to access the information relevant to them quickly and easily meeting the main user story need. The Plan Your Visit page also includes a google map iframe which displays correctly and maintains functionality. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The second user story was to be able to make an enquiry and contact the Penshaw Monument staff. To meet this need:
+- The footer (accessible on every page) includes: the address, phone number and email address 
+- The Contact Us page is easily accessible from every page as it is part of the navigation bar. 
+- The Contact Us page form was tested:
+  - Using the Code Institute form dump and does submit successfully with each value against the correct input name.
+  - The requirement field for email works ensures the user must submit a valid email address else the form will not submit.
+  - The requirement field for message ensures the user must submit some text into their enquiry else the form will not submit. 
+  - The pattern criteria on the telephone number is correct for UK phone numbers as this is where the use case is. If a user does not have a valid phone number, it is not a requirement for using the form so should not limit form use. 
+- Underneath the form is an alternative form of contact with a telephone number listed along with opening times for the phone lines to offer the user another opportunity to get in touch with their preferred method. 
+
+For users interested in the history of the site, they may include an enquiry on the Contact Us form. This need would be better with the future feature of a history page copmplete with timeline. 
 
 
 ## Validator Testing 
