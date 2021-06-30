@@ -5,7 +5,7 @@ Portfolio 1 HTML/CSS Essentials - Code Institute
 Penshaw Monument is a historical landmark based in the north east of England. This site is for people interested in visiting the greek-like landmark - perhaps they have seen it up on the hill as they drive on the A1. The aim of this site is to be a reliable source of information to allow people to visit and make enquiries as necessary.
 
 
-![Responsive Mockup](assets/images/p1-mockup.jpg) 
+![Responsive Mockup](assets/images/p1-mockup.png) 
 
 # User Experience
 
