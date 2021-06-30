@@ -86,9 +86,11 @@ The navigation bar has an underline to show the active page.
 
 ### Imagery
 
-The logo for this site was produced using freelogodesign.org 
+The logo for this site was produced using freelogodesign.org. It has a transparent background allowing it to take the colour of the navigation bar, blending seamlessly into the site. 
 
 ![Penshaw Monument Logo](/assets/images/site-logo.png)
+
+Fontawesome.com has been used for icons throughout the site. 
 
 The three images of Penshaw Monument were found online.
 
@@ -156,11 +158,12 @@ __Contact Us__
   - This page also has a different hero image of Penshaw Monument with the title of the page overlayed in large white text for consistency. 
   - This page contains a form to allow the user to make an enquiry. The form is has email and message as a requirement. It also captures enquirer data should they choose to input it. There is also a drop down list allowing the user to select the nature of their enquiry. 
 
-### Features Left to Implement
+## Features Left to Implement
 
 - A page containing a historical time line of the site including images and facts.
+- Add "top" links on the Plan Your Visit page to take the user back to the navigation bar
 
-## Testing 
+# Testing 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -171,18 +174,18 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
-### Validator Testing 
+## Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Unfixed Bugs
+## Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
-## Deployment
+# Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
@@ -194,21 +197,18 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
 
-## Credits 
+# Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+- Logo created using freelogodesign.org
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
+- Fontawesome.com has been used for icons throughout the site. 
+- Home page image: Title - Penshaw Monument, Artist - Tim Withnall, Copyright - Tim Withnall www.timwithnall.com, https://www.flickr.com/photos/timwithnall/43553627971
+- Plan Your Visit page image:  Artist - Dean Robson, Pixabay, https://pixabay.com/photos/monument-penshaw-pillars-columns-86034/
+- Contact Us page image: Artist - Mark Bryan, freeimages, https://www.freeimages.com/photo/penshaw-monument-by-night-1521077
+- Information on Plan Your Visit page and the blurb from the Home page can be found from https://www.nationaltrust.org.uk/penshaw-monument
+- Brian Machari - Mentor advice, guidance and tips for things to look out for throughout the project. 
+- Matt Rudge for the Code Institute Master Template
+- Balsamiq Wireframes for wireframes in the design phase
+- W3C HTML Validator for testing validity of HTML
+- Jigsaw CSS Validator for testing validity of CSS
 
