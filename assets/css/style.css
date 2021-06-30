@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@500&display=swap');
+
 
 /* reset default styles and set standards across all pages */
 
@@ -435,7 +436,7 @@ footer {
 /* Contact Us Page Styles */
 
 form {
-    background: linear-gradient(20deg, #852e6c, #d17ab9);
+    background: linear-gradient(20deg, #682860, #d17ab9);
     width: 100%;
     text-align:center; 
     display: block;
