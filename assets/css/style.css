@@ -18,14 +18,6 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    display: flex;
-}
-
-.item {
-    flex: 1 1 auto;
-}
-
 .center {
     text-align: center;
     margin-left: auto;
@@ -131,6 +123,41 @@ iframe {
     }
 
 }
+
+@media only screen and (min-width: 768px) {
+   
+    h1 {
+        font-size: 7.5rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        padding: 1em;
+        margin-top: 1.5em;
+    }
+
+    .alt-h2 {
+        font-size: 4rem;
+        padding: 1em;
+        margin: auto;
+        max-width: 60%;
+    }
+
+    h3 {
+        font-size: 3rem;
+        padding: 1em;
+    }
+   
+   
+    .main-text {
+        font-size: 2.5rem;
+        max-width: 85%;
+    }
+
+    iframe {
+        width: 85%;
+    }
+}
 /* plan your visit page */
 
 #hero-image-plan {
@@ -171,6 +198,13 @@ a:hover {
     }
 }
 
+@media only screen and (min-width: 768px) {
+    #page-nav a{
+        font-size: 2.5rem;
+        margin: 0.5em; 
+    }
+}
+
 /* headings and logo */
 
 .top-bar {
@@ -206,11 +240,8 @@ a:hover {
     #logo {
         margin-left: 2.5vw;
     }
-    nav {
-        margin-left:auto;
-        align-items: flex-end;
-    }
 }
+
 
 /* navigation links */
 
@@ -246,13 +277,36 @@ nav {
     }
     
     #menu li, #menu a {
-        list-style-type: none;
         font-size: 4rem;
-        text-decoration: none;
-        color: #3a5061;
         margin: 0 0.5em 0.3em 0.5em;
     }
 
+}
+
+@media only screen and (min-width: 768px) {
+    nav {
+        margin-left: auto;
+        align-items: flex-end;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        
+    }
+    
+    #menu li, #menu a {
+        font-size: 2.7rem;
+        margin: 0 0.5em 1em 0.5em;
+    }
+
+    .top-bar {
+        align-items: flex-end;
+
+    }
 }
 
 /* hero image */
@@ -461,3 +515,20 @@ input:focus, textarea:focus, select:focus {
     }
 }
 
+@media only screen and (min-width: 768px) {
+     
+    label {
+        display: block;
+        font-size: 2.5rem;
+    }
+
+    input, select, textarea, ::placeholder {
+        font-size: 2.0rem;
+    }
+
+    .padding {
+        padding: 35em;
+    }
+
+    
+}
