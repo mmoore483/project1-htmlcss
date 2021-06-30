@@ -334,7 +334,7 @@ nav {
 
 .call-to-action {
     position: relative;
-    top: 55%;
+    top: 60%;
 }
 
 /* footer style */
@@ -416,11 +416,8 @@ footer {
 
 .button-style {
     background-color: rgba(103, 35, 84, 0.8);
-    padding: 20em;
+    padding: 1em;
     border-radius: 50%;
-}
-
-.button-style a {
     color: white;
     text-decoration: none;
     text-align: center;
@@ -428,7 +425,7 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
-    .button-style a {
+    .button-style {
         font-size: 3rem;
     }
 }
