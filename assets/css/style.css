@@ -38,7 +38,7 @@ h3 {
 
 h1 {
 	color: white;
-	font-size: 5rem;
+	font-size: 3.4rem;
 	margin: 0 2rem;
 }
 
@@ -116,7 +116,7 @@ iframe {
 }
 
 .hero-image {
-	height: 800px;
+	height: calc(100vh - 110px);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -134,7 +134,7 @@ iframe {
 #page-nav li {
 	display: inline-block;
 	position: relative;
-	top: -78rem;
+	top: -81vh;
 	z-index: 1;
 }
 
