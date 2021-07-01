@@ -15,6 +15,8 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     overflow-x: hidden;
+    max-width: 2400px;
+    margin: auto;
 }
 
 /* Generic Styles */
@@ -142,7 +144,7 @@ iframe {
 /* headings and logo */
 
 .top-bar {
-    background-color: #F4F6F6;
+    background-color: #f4f6f6;
     position: relative;
     display: flex;
     flex-flow: row wrap;
@@ -150,6 +152,7 @@ iframe {
     align-items: center;
     flex-basis: 100%;
 }
+
 .logo {
     float: left;
     margin: 2vw;
@@ -157,6 +160,7 @@ iframe {
 }
 
 /* navigation links */
+
 nav {
     margin-right: 2vw;
 }
@@ -180,18 +184,17 @@ nav {
     border-bottom: 2px solid #3a5061;
 }
 
-
 /* footer style */
 
 footer {
-    width: 100vw;
+    width: 100%;
     display: flex;
     overflow: hidden;
     box-sizing: border-box;
-    background-color: #F4F6F6;
-    bottom: 0;
+    background-color: #f4f6f6;
     margin-top: 5em;
     align-items: center;
+    place-content: center;
     color:#3a5061;
 }
 
@@ -390,7 +393,6 @@ input:focus, textarea:focus, select:focus {
         flex-basis: 100%;
         flex-grow: 1;
         flex-wrap: wrap;
-        
     }
     
     .nav-style {
@@ -404,8 +406,8 @@ input:focus, textarea:focus, select:focus {
 
     .top-bar {
         align-items: baseline;
-
     }
+
     .logo {
         margin-left: 2.5vw;
     }
@@ -470,8 +472,7 @@ input:focus, textarea:focus, select:focus {
         flex-direction: row;
         flex-basis: 100%;
         flex-grow: 1;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;   
     }
     
     .nav-style {
@@ -483,3 +484,4 @@ input:focus, textarea:focus, select:focus {
         align-items: flex-end;
     }
 }
+
