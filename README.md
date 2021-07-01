@@ -56,7 +56,7 @@ The website will consist of three separate pages:
 
 ### Colours
 
-![Color Pallette](/assets/images/site-colors.png) 
+![Color Palette](/assets/images/site-colors.png) 
 
 - Charcoal has been used rather than black for most of the site to aid user experience, especially for those who are low vision users. Using pure black and white on websites can cause eye strain and strengthens reading stamina. More information on this can be found [here.](https://uxmovement.com/content/why-you-should-never-use-pure-black-for-text-or-backgrounds/)
 - White has been used for text overlayed on images or strong background colors for better contrast, limiting eye strain and allowing for a better user experience.
@@ -261,4 +261,6 @@ To trial changes to the site without affecting the original, the GitHub Reposito
 - Pattern for input tel is from [here](https://www.html5pattern.com/Phones)
 - Responsiveness tested using [whatismyscreenresolution](http://whatismyscreenresolution.net/multi-screen-test)
 - Testing site for colour accessibility using Chrome extension [Let's get color blind](https://chrome.google.com/webstore/detail/lets-get-color-blind/bkdgdianpkfahpkmphgehigalpighjck/related?hl=en)
+- coolors.co for creation of the colour palette image
+- googlefonts for the imported fonts
 
