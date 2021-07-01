@@ -13,28 +13,26 @@ Penshaw Monument is a historical landmark based in the north east of England. Th
 Reasons a user may visit a site:
 
 - A user is interested in site details such as:
-    - Location of the site
-    - How to get to the site
-    - Accessibility and facilities at the site
+    - Location of the monument
+    - How to get to the monument
+    - Accessibility and facilities at the monument
     - Opening times 
-    - Guided tour options for the site
-    - Prices for visiting the site
+    - Guided tour options for the monument
+    - Prices for visiting the monument
 
 - A user may also wish to make an enquiry and find out more about:
     - Bookings
-    - History of the site
+    - History of the monument
     - Ask for accessibility aids
     - General question
 
-- A user may be interested in the history of the site
+- A user may be interested in the history of the monument
 
 Reasons for the site:
 
 - Increase visitor numbers to Penshaw Monument by providing easy access to information in a minimalistic fashion
 
 ## Scope
-
-Not all of the user reasons will be implemented into the site at this time. 
 
 A user can expect: 
     
@@ -111,6 +109,8 @@ Differences for smaller screen sizes:
 - Footer social media icons are vertically listed (in a column)
 - The form on the contact us page is the whole width and in a single column
 - Font-sizes and max-widths altered for different screen-sizes to maintain legibility of the text
+- For larger screen sizes (above 2400px), the site will be centred in the middle of the screen with white margins
+- The hero image has been sized based on the viewing height
 
 ![Wireframes](/assets/images/wireframes.jpeg)
 
@@ -123,14 +123,14 @@ __Navigation Bar__
   - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Plan Your Visit and Contact Us page. It is identical across all pages to allow for easy, consistent navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
   - As previously mentioned, the navigation bar has an underline for the active page and when the user hovers over another navigation link, a dotted line appears.
-  - The logo is linked to the home page, so the user can click that at any time to return to the landing page. 
+  - The logo is linked to the home page, so the user can click that at any time to return to the home page. 
 
 ![Nav Bar](assets/images/navbar.png)
 
 __Home Hero Image and Call To Action__
 
-  - The first image seen when accessing the page is of the historical landmark itself so should be instantly recognisable to site visitors. Overlayed at the bottom is  large title stating the name of the landmark, Penshaw Monument to avoid confusion. The image has a darkened gradient over it to contrast with the white text.
-  - There is a call to action button directing people to the Plan Your Visit page as this is likely to be the place users want to access as it contains all the practical information for visiting. The button is in the accent colour taken from the image to maintain a common colour scheme across the site. The button also has the dotted underline on hover effect so the user knows when they are about to click it. 
+  - The first image seen when accessing the page is of the historical landmark itself so should be instantly recognisable to site visitors. Overlayed at the bottom is a large title stating the name of the landmark, Penshaw Monument so the user knows what the site is about. The image has a darkened gradient over it to contrast with the white text.
+  - There is a call to action button directing people to the Plan Your Visit page as in accordance with the user stories, this is likely to be the place users want to access as it contains all the practical information for visiting. The button is in the accent colour taken from the image to maintain a common colour scheme across the site. The button also has the dotted underline on hover effect so the user knows when they are about to click it. 
 
 __Home Blurb__
 
@@ -180,6 +180,8 @@ The main user story was to access information on how to visit Penshaw Monument e
 
 When reaching the Plan Your Visit page, there is a second navigation bar allowing the user to skip to the part of information they wish to know. These navigation links successfully take the user to the correct location on the page. This enables the user to access the information relevant to them quickly and easily meeting the main user story need. The Plan Your Visit page also includes a google map iframe which displays correctly at the correct location and maintains functionality. 
 
+The google maps iframe is sized for various screen sizes and maintains usability (tested on my person mobile (Pixel 3a) as well as my desktop). The map also is targeted at Penshaw Monument.
+
 The second user story was to be able to make an enquiry and contact the Penshaw Monument staff. To meet this need:
 - The footer (accessible on every page) includes: the address, phone number and email address 
 - The Contact Us page is easily accessible from every page as it is part of the navigation bar. 
@@ -192,6 +194,7 @@ The second user story was to be able to make an enquiry and contact the Penshaw 
 
 For users interested in the history of the site, they may include an enquiry on the Contact Us form. This need would be better with the future feature of a history page copmplete with timeline. 
 
+The entire website was tested using a [chrome extension](https://chrome.google.com/webstore/detail/lets-get-color-blind/bkdgdianpkfahpkmphgehigalpighjck/related?hl=en) to ensure it is legible for those with different types of colour blindness. Whilst the accent colour varied a lot, all text was still legible due to the white text overlayed. 
 
 ## Validator Testing 
 
@@ -254,6 +257,8 @@ To trial changes to the site without affecting the original, the GitHub Reposito
 - Code beautified with [freeformatter](https://www.freeformatter.com/)
 - [Rem in CSS: Understanding and Using rem Units Article](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/) for understanding and fontsize: 62.5% as used in style.css
 - Code Insitute love running walkthrough which much of the code was inspired by as well as other resources provided by the course including [Anna's README](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
+- W3C and Kevin Powell [Youtube](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) for general understanding on CSS, especially flexbox and gradients.
 - Pattern for input tel is from [here](https://www.html5pattern.com/Phones)
 - Responsiveness tested using [whatismyscreenresolution](http://whatismyscreenresolution.net/multi-screen-test)
+- Testing site for colour accessibility using Chrome extension [Let's get color blind](https://chrome.google.com/webstore/detail/lets-get-color-blind/bkdgdianpkfahpkmphgehigalpighjck/related?hl=en)
 
